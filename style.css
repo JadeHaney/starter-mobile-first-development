@@ -6,24 +6,133 @@ main h1 {
   margin: 0 10px;
   text-align: center;
   font-family: "Amatic SC", cursive;
-  font-size: 65px;
+  font-size: 47px;
 }
 
 main h2 {
   margin: 18px 0 12px 0;
   border-bottom: 1px solid #5c4f41;
   font-family: "Special Elite", cursive;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 main h3 {
   margin: 18px 0 12px 0;
   border-bottom: 1px solid #5c4f41;
   font-family: "Special Elite", cursive;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
+}
+
+
+
+.item1 img {
+  width: 200px;
+  flex: 1 1 auto;
+}
+.item3 img {
+  width: 200px;
+  flex: 1 1 auto;
+}
+.item4 img {
+  width: 200px;
+  flex: 1 1 auto;
+}
+.item5 img {
+  width: 200px;
+  flex: 1 1 auto;
+}
+
+.item6 img {
+  width: 150px;
+  flex: 1 1 auto;
+}
+.item7 img {
+  width: 150px;
+  flex: 1 1 auto;
+}
+
+.item8 img {
+  width: 150px;
+  flex: 1 1 auto;
+}
+.item9 img {
+  width: 150px;
+  flex: 1 1 auto;
+}
+
+/* Groups and items (Desktop) */
+
+.group {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+  gap:1em;
+}
+.item1 {
+  flex-basis: 100px;
+}
+
+.item2 {
+  flex-basis: 100px;
+  margin-top: 17px;
+}
+
+.item3 {
+  flex-basis: 100px;
+  margin-top: 42px;
+}
+
+.item4 {
+  flex-basis: 100px;
+}
+
+.item5 {
+  flex-basis: 100px;
+  margin-top: 40px;
+}
+
+.bottom {
+  background-color:#5c4f41;
+  padding-bottom: 5px;
+  margin: 135px;
+  flex-basis: 100px;
+}
+
+.item6 {
+  flex-basis: 100px;
+  margin-top: 8px;
+}
+
+.item7 {
+  flex-basis: 100px;
+  margin-top: 8px;
+}
+
+.item8 {
+  flex-basis: 100px;
+  margin-top: 8px;
+}
+
+.item9 {
+  flex-basis: 100px;
+  margin-top: 8px;
+}
+
+@media all and (min-width: 800px) {
+  section,
+  h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
 }
